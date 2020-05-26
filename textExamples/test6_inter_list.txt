@@ -1,0 +1,36 @@
+  0	     main	         	         	         
+  1	        =	        0	         	      sum
+  2	        =	        0	         	   choice
+  3	     call	     read	         	   $___t0
+  4	        =	   $___t0	         	        N
+  5	     call	     read	         	   $___t1
+  6	        =	   $___t1	         	   choice
+  7	       ==	   choice	        1	   $___t2
+  8	       jz	   $___t2	         	       23
+  9	        =	        1	         	        i
+ 10	       <=	        i	        N	   $___t3
+ 11	       jz	   $___t3	         	       22
+ 12	      jnz	   $___t3	         	       16
+ 13	        +	        i	        1	   $___t4
+ 14	        =	   $___t4	         	        i
+ 15	        j	         	         	       10
+ 16	        %	        i	        2	   $___t5
+ 17	       ==	   $___t5	        1	   $___t6
+ 18	       jz	   $___t6	         	       21
+ 19	        +	      sum	        i	   $___t7
+ 20	        =	   $___t7	         	      sum
+ 21	        j	         	         	       13
+ 22	        j	         	         	       33
+ 23	       ==	   choice	        2	   $___t8
+ 24	       jz	   $___t8	         	       33
+ 25	        =	        0	         	        i
+ 26	        <	        i	        N	   $___t9
+ 27	       jz	   $___t9	         	       33
+ 28	        +	      sum	        i	  $___t10
+ 29	        =	  $___t10	         	      sum
+ 30	        +	        i	        2	  $___t11
+ 31	        =	  $___t11	         	        i
+ 32	        j	         	         	       26
+ 33	     para	      sum	         	         
+ 34	     call	    write	         	  $___t12
+ 35	      sys	         	         	         

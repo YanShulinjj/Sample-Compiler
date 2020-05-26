@@ -1,0 +1,19 @@
+  0	     main	         	         	         
+  1	        =	        1	         	        a
+  2	     call	     read	         	   $___t0
+  3	        =	   $___t0	         	        N
+  4	     para	        3	         	         
+  5	     para	        4	         	         
+  6	     call	      sum	         	   $___t1
+  7	     para	   $___t1	         	         
+  8	     para	        N	         	         
+  9	     call	      sum	         	   $___t2
+ 10	        =	   $___t2	         	        a
+ 11	     para	        a	         	         
+ 12	     call	    write	         	   $___t3
+ 13	      sys	         	         	         
+ 14	      sum	         	         	         
+ 15	        +	    sum_x	    sum_y	   $___t4
+ 16	        =	   $___t4	         	   result
+ 17	      ret	   result	         	         
+ 18	      ret	         	         	         

@@ -1,0 +1,36 @@
+//if and while,阶乘
+main()
+
+{
+
+  int i,factor,n;
+	
+  i=0;
+
+  n=read();
+
+  if(n<1)
+{
+
+	factor=0;
+
+    }
+	
+    else {
+
+       factor=1;
+
+    }
+
+  while(i<n)
+{
+
+    i=i+1;
+
+    factor=factor*i;
+
+    }
+
+  write(factor);
+
+}

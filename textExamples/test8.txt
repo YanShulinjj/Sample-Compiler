@@ -1,0 +1,31 @@
+//两个函数测试，输入两个数，将其中较大的数加100输出
+int a = 1 ;
+
+int sum(int,int);
+int max(int,int);
+main(){
+
+    int N = read() ;
+    int M = read() ;
+    a = sum(max(M,N),100) ;
+    write(a);
+
+}
+
+int sum(int sum_x,int sum_y){
+
+    int result ;
+    result = sum_x + sum_y ;
+
+    return result ;
+
+}
+
+int max(int m_x,int m_y){
+
+    int result ;
+    if (m_x >= m_y)result = m_x ;
+	else result = m_y;
+    return result ;
+
+}

@@ -1,0 +1,9 @@
+//if and while,阶乘
+main()
+
+{
+  if(a>1)
+  {
+     i = 1
+  }
+}

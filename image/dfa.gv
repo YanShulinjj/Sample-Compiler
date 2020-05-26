@@ -1,0 +1,12 @@
+digraph "./image/dfa" {
+	rankdir=LR size="8,5"
+	node [shape=doublecircle]
+	0
+	node [shape=doublecircle]
+	1
+	node [shape=point]
+	s
+	s -> 0 [label=E]
+	0 -> 1 [label=a]
+	1 -> 1 [label=a]
+}

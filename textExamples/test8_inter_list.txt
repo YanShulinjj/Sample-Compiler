@@ -1,0 +1,29 @@
+  0	     main	         	         	         
+  1	        =	        1	         	        a
+  2	     call	     read	         	   $___t0
+  3	        =	   $___t0	         	        N
+  4	     call	     read	         	   $___t1
+  5	        =	   $___t1	         	        M
+  6	     para	        M	         	         
+  7	     para	        N	         	         
+  8	     call	      max	         	   $___t2
+  9	     para	   $___t2	         	         
+ 10	     para	      100	         	         
+ 11	     call	      sum	         	   $___t3
+ 12	        =	   $___t3	         	        a
+ 13	     para	        a	         	         
+ 14	     call	    write	         	   $___t4
+ 15	      sys	         	         	         
+ 16	      sum	         	         	         
+ 17	        +	    sum_x	    sum_y	   $___t5
+ 18	        =	   $___t5	         	   result
+ 19	      ret	   result	         	         
+ 20	      ret	         	         	         
+ 21	      max	         	         	         
+ 22	       >=	      m_x	      m_y	   $___t6
+ 23	       jz	   $___t6	         	       26
+ 24	        =	      m_x	         	   result
+ 25	        j	         	         	       27
+ 26	        =	      m_y	         	   result
+ 27	      ret	   result	         	         
+ 28	      ret	         	         	         

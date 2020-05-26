@@ -1,0 +1,16 @@
+  0	     main	         	         	         
+  1	        =	        1	         	        a
+  2	     call	     read	         	   $___t0
+  3	        =	   $___t0	         	        N
+  4	     call	     read	         	   $___t1
+  5	        =	   $___t1	         	        M
+  6	       >=	        M	        N	   $___t2
+  7	       jz	   $___t2	         	       10
+  8	        =	        M	         	   result
+  9	        j	         	         	       11
+ 10	        =	        N	         	   result
+ 11	        +	   result	      100	   $___t3
+ 12	        =	   $___t3	         	        a
+ 13	     para	        a	         	         
+ 14	     call	    write	         	   $___t4
+ 15	      sys	         	         	         

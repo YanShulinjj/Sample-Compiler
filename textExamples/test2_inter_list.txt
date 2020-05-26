@@ -1,0 +1,19 @@
+  0	     main	         	         	         
+  1	        =	        0	         	        i
+  2	     call	     read	         	   $___t0
+  3	        =	   $___t0	         	        n
+  4	        <	        n	        1	   $___t1
+  5	       jz	   $___t1	         	        8
+  6	        =	        0	         	   factor
+  7	        j	         	         	        9
+  8	        =	        1	         	   factor
+  9	        <	        i	        n	   $___t2
+ 10	       jz	   $___t2	         	       16
+ 11	        +	        i	        1	   $___t3
+ 12	        =	   $___t3	         	        i
+ 13	        *	   factor	        i	   $___t4
+ 14	        =	   $___t4	         	   factor
+ 15	        j	         	         	        9
+ 16	     para	   factor	         	         
+ 17	     call	    write	         	   $___t5
+ 18	      sys	         	         	         

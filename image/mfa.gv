@@ -1,0 +1,9 @@
+digraph "./image/mfa" {
+	rankdir=LR size="8,5"
+	node [shape=doublecircle]
+	0
+	node [shape=point]
+	s
+	s -> 0 [label=E]
+	0 -> 0 [label=a]
+}

@@ -1,0 +1,34 @@
+  0	     main	         	         	         
+  1	     call	     read	         	   $___t0
+  2	        =	   $___t0	         	        N
+  3	        =	        0	         	    count
+  4	        =	        0	         	   nprime
+  5	        =	        2	         	        i
+  6	       <=	        i	        N	   $___t1
+  7	       jz	   $___t1	         	       33
+  8	      jnz	   $___t1	         	       12
+  9	        +	        i	        1	   $___t2
+ 10	        =	   $___t2	         	        i
+ 11	        j	         	         	        6
+ 12	        =	        0	         	   nprime
+ 13	        =	        2	         	        j
+ 14	        <	        j	        i	   $___t3
+ 15	       jz	   $___t3	         	       26
+ 16	      jnz	   $___t3	         	       20
+ 17	        +	        j	        1	   $___t4
+ 18	        =	   $___t4	         	        j
+ 19	        j	         	         	       14
+ 20	        %	        i	        j	   $___t5
+ 21	       ==	   $___t5	        0	   $___t6
+ 22	       jz	   $___t6	         	       25
+ 23	        +	   nprime	        1	   $___t7
+ 24	        =	   $___t7	         	   nprime
+ 25	        j	         	         	       17
+ 26	       ==	   nprime	        0	   $___t8
+ 27	       jz	   $___t8	         	       32
+ 28	     para	        i	         	         
+ 29	     call	    write	         	   $___t9
+ 30	        +	    count	        1	  $___t10
+ 31	        =	  $___t10	         	    count
+ 32	        j	         	         	        9
+ 33	      sys	         	         	         

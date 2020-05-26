@@ -1,0 +1,30 @@
+variable 1:
+address = 4 , genus=2 , type=int , name=read_arg
+	2 scope:0/-1/
+variable 2:
+address = 4 , genus=2 , type=int , name=write_arg
+	2 scope:0/-2/
+variable 3:
+address = 0 , genus=1 , type=int , name=n
+	2 scope:0/1/
+variable 4:
+address = 4 , genus=2 , type=int , name=m
+	2 scope:0/2/
+variable 5:
+address = -2 , genus=1 , type=int , name=i
+	2 scope:0/2/
+variable 6:
+address = -4 , genus=1 , type=int , name=fa
+	2 scope:0/2/
+function 1:
+total size (0,2), parameter=0, type=int ,name=read
+
+	2 scope:0/-1/
+function 2:
+total size (0,2), parameter=1, type=int ,name=write
+parameter 1 has type int;
+	2 scope:0/-2/
+function 3:
+total size (4,2), parameter=1, type=int ,name=factor
+parameter 1 has type int;
+	2 scope:0/2/

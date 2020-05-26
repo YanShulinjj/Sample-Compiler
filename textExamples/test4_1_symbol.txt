@@ -1,0 +1,29 @@
+variable 1:
+address = 4 , genus=2 , type=int , name=read_arg
+	2 scope:0/-1/
+variable 2:
+address = 4 , genus=2 , type=int , name=write_arg
+	2 scope:0/-2/
+variable 3:
+address = 0 , genus=1 , type=int , name=N
+	2 scope:0/1/
+variable 4:
+address = 0 , genus=1 , type=int , name=count
+	2 scope:0/1/
+variable 5:
+address = 0 , genus=1 , type=int , name=nprime
+	2 scope:0/1/
+variable 6:
+address = 0 , genus=1 , type=int , name=i
+	2 scope:0/1/
+variable 7:
+address = 0 , genus=1 , type=int , name=j
+	2 scope:0/1/
+function 1:
+total size (0,2), parameter=0, type=int ,name=read
+
+	2 scope:0/-1/
+function 2:
+total size (0,2), parameter=1, type=int ,name=write
+parameter 1 has type int;
+	2 scope:0/-2/

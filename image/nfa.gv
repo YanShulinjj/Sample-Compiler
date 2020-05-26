@@ -1,0 +1,19 @@
+digraph "./image/nfa" {
+	rankdir=LR
+	node [shape=circle]
+	2
+	node [shape=point]
+	s
+	s -> 2 [label=E]
+	node [shape=circle]
+	0
+	2 -> 0 [label=E]
+	node [shape=doublecircle]
+	3
+	2 -> 3 [label=E]
+	node [shape=circle]
+	1
+	0 -> 1 [label=a]
+	1 -> 3 [label=E]
+	1 -> 0 [label=E]
+}

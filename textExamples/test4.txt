@@ -1,0 +1,16 @@
+//for嵌套if,求1到给定数N以内所有奇数的和
+main()
+
+{
+  int i,N,sum = 0;
+  N = read();
+  for(i=1;i<=N;i=i+1)
+{
+
+     if(i%2 == 1)
+	sum = sum+i;
+    }
+
+  write(sum);
+
+}

@@ -1,0 +1,44 @@
+﻿File(&F)
+Recently
+Edit(&E)
+Form(&O)
+Built(&B)
+View(&V)
+Help(&H)
+Lang(&L)
+Text Edit
+File Explore
+Info Display
+Ready
+New
+Open
+Save
+Save As
+Exit
+...add recently file
+Undo
+Redo
+Cut
+Copy
+Paste
+Delete
+Find
+Replace
+Select All
+Font
+Color
+File Explore
+Text Edit
+Info Display
+Vocabulary Analyze
+NFA_DFA_MFA
+Grammar Analyze
+LL(1) 
+OP_First
+DGA optimize
+Midway Code
+Target Code
+中文简体
+English
+Help Manual
+About

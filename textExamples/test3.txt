@@ -1,0 +1,15 @@
+//for,求1到给定数的和,我没有定义运算符++，必须写出i=i+1
+main()
+
+{
+  int i,N,sum = 0;
+  N = read();
+  for(i=1;i<=N;i=i+1)
+{
+
+     sum = sum+i;
+    }
+
+  write(sum);
+
+}

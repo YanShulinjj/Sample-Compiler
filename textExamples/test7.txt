@@ -1,0 +1,22 @@
+//Ò»¸öº¯Êı²âÊÔ
+int a = 1 ;
+
+int sum(int,int);
+
+main(){
+
+    int N = read() ;
+
+    a = sum(sum(3,4),N) ;
+    write(a);
+
+}
+
+int sum(int sum_x,int sum_y){
+
+    int result ;
+    result = sum_x + sum_y ;
+
+    return result ;
+
+}

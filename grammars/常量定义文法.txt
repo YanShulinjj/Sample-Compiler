@@ -1,0 +1,10 @@
+g = [('S_', ['DCL']),
+     ('DCL', ['Head', 'TD']),
+     ('DCL', ['none']),
+     ('Head', ['const', 'Type']),
+     ('Type', ['int']),
+     ('Type', ['float']),
+     ('Type', ['char']),
+     ('TD', ['id', '=', 'v', ',', 'TD']),
+     ('TD', ['id', '=', 'v', ';']),
+     ]

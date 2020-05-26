@@ -1,0 +1,20 @@
+  0	     main	         	         	         
+  1	     call	     read	         	   $___t0
+  2	        =	   $___t0	         	        n
+  3	     para	        n	         	         
+  4	     call	   factor	         	   $___t1
+  5	     para	   $___t1	         	         
+  6	     call	    write	         	   $___t2
+  7	      sys	         	         	         
+  8	   factor	         	         	         
+  9	        =	        0	         	        i
+ 10	       <=	        m	        1	   $___t3
+ 11	       jz	   $___t3	         	       14
+ 12	        =	        1	         	       fa
+ 13	        j	         	         	       19
+ 14	        -	        m	        1	   $___t4
+ 15	     para	   $___t4	         	         
+ 16	     call	   factor	         	   $___t5
+ 17	        *	        m	   $___t5	   $___t6
+ 18	        =	   $___t6	         	       fa
+ 19	      ret	         	         	         

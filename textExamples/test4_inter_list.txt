@@ -1,0 +1,20 @@
+  0	     main	         	         	         
+  1	        =	        0	         	      sum
+  2	     call	     read	         	   $___t0
+  3	        =	   $___t0	         	        N
+  4	        =	        1	         	        i
+  5	       <=	        i	        N	   $___t1
+  6	       jz	   $___t1	         	       17
+  7	      jnz	   $___t1	         	       11
+  8	        +	        i	        1	   $___t2
+  9	        =	   $___t2	         	        i
+ 10	        j	         	         	        5
+ 11	        %	        i	        2	   $___t3
+ 12	       ==	   $___t3	        1	   $___t4
+ 13	       jz	   $___t4	         	       16
+ 14	        +	      sum	        i	   $___t5
+ 15	        =	   $___t5	         	      sum
+ 16	        j	         	         	        8
+ 17	     para	      sum	         	         
+ 18	     call	    write	         	   $___t6
+ 19	      sys	         	         	         
