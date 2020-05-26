@@ -1,0 +1,53 @@
+_1:
+	MOV AX,1
+	MOV DS:[_a], AX
+_3:
+	CALL _read
+	MOV ES:[0],AX
+_4:
+	MOV AX,ES:[0]
+	MOV DS:[_N], AX
+_5:
+	MOV AX,3
+	PUSH AX
+_6:
+	MOV AX,4
+	PUSH AX
+_7:
+	CALL _sum
+	MOV ES:[2],AX
+_8:
+	MOV AX,ES:[2]
+	PUSH AX
+_9:
+	MOV AX,DS:[_N]
+	PUSH AX
+_10:
+	CALL _sum
+	MOV ES:[4],AX
+_11:
+	MOV AX,ES:[4]
+	MOV DS:[_a], AX
+_12:
+	MOV AX,DS:[_a]
+	PUSH AX
+_13:
+	CALL _write
+	MOV ES:[6],AX
+_14:
+	QUIT: MOV AH, 4CH
+	int 21h
+_sum:
+	PUSH BP
+	MOV BP,SP
+	SUB SP
+_16:
+	MOV AX,DS:[_sum_x]
+	ADD AX,DS:[_sum_y]
+	MOV DS:[_result],AX;
+_17:
+	MOV SP,BP
+	POP BP
+	RET
+_18:
+	JMP far ptr _14
