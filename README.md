@@ -8,3 +8,5 @@
     - graphviz
 ## graphviz 需要安装外部依赖软件，官方下载: https://graphviz.gitlab.io/_pages/Download/Download_windows.html
 ## 执行 runfile.py 进入界面。
+## 一个例子
+![bandicam-2020-05-26-15-25-05-791.gif](https://i.loli.net/2020/05/26/NzxlkfXZbtq1Q8Y.gif)
