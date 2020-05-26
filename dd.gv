@@ -1,0 +1,9 @@
+digraph G {
+	0 [label=DCL]
+	1 [label=Head]
+	0 -> 1 [label=0]
+	2 [label=const]
+	1 -> 2 [label=0]
+	3 [label=id]
+	0 -> 3 [label=1]
+}
