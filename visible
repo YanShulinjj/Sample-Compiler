@@ -1,0 +1,22 @@
+// The Round Table
+digraph {
+	1 [label="3.14|T0"]
+	2 [label="2|"]
+	3 [label="*|T1"]
+	4 [label="R|"]
+	5 [label="r|"]
+	6 [label="+|T2"]
+	7 [label="*|A"]
+	8 [label="-|T6"]
+	9 [label="*|B"]
+	3 -> 2
+	3 -> 1
+	6 -> 4
+	6 -> 5
+	7 -> 3
+	7 -> 6
+	8 -> 4
+	8 -> 5
+	9 -> 7
+	9 -> 8
+}
