@@ -341,7 +341,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
             _translate = QtCore.QCoreApplication.translate
-            MainWindow.setWindowTitle(_translate("MainWindow", "YSL\'s_compiler 11703990331 晏术林"))
+            MainWindow.setWindowTitle(_translate("MainWindow", "Sample Compiler"))
             self.File.setTitle(_translate("MainWindow", Language[0]))
             self.menu.setTitle(_translate("MainWindow", Language[1]))
             self.Edit.setTitle(_translate("MainWindow", Language[2]))
