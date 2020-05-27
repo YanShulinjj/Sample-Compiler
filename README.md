@@ -3,6 +3,7 @@
 
 
 ## 运行环境：
+    - Windows 10
     - python == 3.6
     - pyqt5 == 4.19
     - graphviz
